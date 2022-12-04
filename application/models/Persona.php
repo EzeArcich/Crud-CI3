@@ -31,6 +31,7 @@ class Persona extends CI_Model {
         $update = $this->db->where('id', $atrapar['id'])->update('personas', $atrapar);
         if($update == true) {
             return $msg = "Datos actualizados con éxito";
+            
         }
     }
 
